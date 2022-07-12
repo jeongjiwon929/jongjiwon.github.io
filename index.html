@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>jiwonshop</title>
+    <meta charset="utf-8">
+    <style>
+      * {
+    box-sizing: border-box;
+  }
+  .login-form {
+    width: 300px;
+    background-color: #EEEFF1;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 50px;
+    padding: 20px;
+    text-align: center;
+    border: none;
+    
+}
+  
+  body {
+    margin: 0;
+    min-width: 150px;
+    font-family: "Helvetica";
+  }
+  
+  .navbar{
+    height: 30px;
+    padding-left: 30px;
+    padding-right: 30px;
+  }
+  .navbar #logo {
+    line-height: 60px;
+  }
+  .navbar #logo img{
+    width:100%;
+    height:300px;
+  }
+  
+  .navbar #menu {
+    float: right;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    
+  }
+  .navbar #menu li {
+    float:left;
+    margin-left: 50px;
+    line-height: 60px;
+  }
+  
+  .navbar #menu li a {
+    text-decoration: none;
+    color: #545454 ;
+    font-size: 13px;
+    font-weight: bold;
+  }
+  
+  .hero-header{
+    height: 450px;
+    background-image: url("../images/hero_header.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    
+  }
+  
+  .products h3{
+    font-size: 24px;
+    color: #545454;
+    font-weight: bold;
+    margin-top: 60px;
+    margin-bottom: 60px;
+    text-align: center;
+  }
+  .product-list{
+    width: 735px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .product{
+    width: 225px;
+    text-align: center;
+    display: block;
+    color: #545454;
+    text-decoration: none;
+    float: left;
+    margin-left:10px;
+    margin-right: 10px;
+    margin-bottom: 80px;
+    
+  }
+  
+  .product-name{
+    margin-top: 20px;
+    margin-bottom: 4px;
+    
+  }
+  .clearfix{
+    clear: both;
+  }
+  .footer{
+    text-align: center;
+    margin-top: 40px;
+    margin-bottom: 80px;
+  
+  }
+  .footer a{
+    margin-left: 10px;
+    margin-right: 10px;
+    text-decoration: none;
+  }
+  li .product-list{
+    display: inline-block;
+  }
+    </style>
+  </head>
+
+  <body>
+    <div class="navbar">
+        <ul id="menu">
+          <li><a href="#">회원가입</a></li>
+          <li><a href="#">할인</a></li>
+          <li><a href="#">베스트</a></li>
+
+          <div class="login-form">
+            
+            <form>
+              <input type="text" name="email" class="text-field" placeholder="아이디">
+              <input type="password" name="password" class="text-field" placeholder="비밀번호">
+              <input type="submit" value="로그인" class="submit-btn">
+            </form>
+         
+            <div class="links">
+              <a href="#">비밀번호를 잊어버리셨나요?</a>
+          </div>
+          <li><a href="#" button type="button" class="login-form" id="btn" onclick="location.href=index.html">로그인</a></li>
+        </ul>
+        <a href="#" id="logo">
+          <img src="가방 로고.jpg" width="149">
+        </a>
+    </div>
+    <div class="hero-header"></div>  
+    
+    <div class="products">
+      <h3>이번 달 NEW!</h3>
+      <div class="product-list">
+        <a href="#" class="product">
+          <img src="가방.png" width="225">
+          <div class="product-name">
+            가방
+          </div>
+          <div class="product-price">35,000</div>
+        </a>
+        
+        <a href="#" class="product">
+          <img src="가방2.png" width="225">
+          <div class="product-name">
+            가방2
+          </div>
+          <div class="product-price"></div>45,000
+        </a>
+        
+        <a href="#" class="product">
+          <img src="모자.png" width="225">
+          <div class="product-name">
+            모자
+          </div>
+          <div class="product-price">20,000</div>
+        </a>
+        
+        <a href="#" class="product">
+          <img src="샌들.png" width="225">
+          <div class="product-name">
+            블랙 샌들
+          </div>
+          <div class="product-price">23,000</div>
+        </a>
+      
+        <a href="#" class="product">
+          <img src="선글라스.png" width="225">
+          <div class="product-name">
+            선글라스
+          </div>
+          <div class="product-price">19,000</div>
+        </a>
+        
+        <a href="#" class="product">
+          <img src="시계.png" width="225">
+          <div class="product-name">
+            시계
+          </div>
+          <div class="product-price">26,000</div>
+        </a>
+        
+        <a href="#" class="product">
+          <img src="신발.png" width="225">
+          <div class="product-name">
+            구두
+          </div>
+          <div class="product-price">25,000</div>
+        </a>
+        
+        <a href="#" class="product">
+          <img src="신발2.png" width="225">
+          <div class="product-name">
+            신발2
+          </div>
+          <div class="product-price">26,000</div>
+        </a>
+
+        <a href="#" class="product">
+          <img src="신발3.png" width="225">
+          <div class="product-name">
+            신발3
+          </div>
+          <div class="product-price">26,000</div>
+        </a>
+
+        <div class="clearfix"></div>
+      </div>
+    </div>
+    
+    <div class="footer">
+      <a href="http://facebook.com">
+        <img src="페이스북.png"height="20">
+      </a>
+      <a href="http://instagram.com">
+        <img src="인스타그램.jpg"height="20">
+      </a>
+      <a href="http://twitter.com">
+        <img src="트위터.png"height="20">
+      </a>
+    </div>
+  </body>
+</html>
